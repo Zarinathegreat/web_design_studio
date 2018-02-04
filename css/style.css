@@ -72,7 +72,7 @@ table {
 }
 
 
-*{
+* {
 	box-sizing:border-box;
 }
 
@@ -98,7 +98,7 @@ body {
     url('../images/header_bg.png');
     background-size: cover;
     background-position: top;	
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
        }
 
 .logo {
@@ -147,8 +147,7 @@ text-align: center;
 .heading-primary {
     color: #fff;
     backface-visibility: hidden;
-    backface-visibility: hidden;
-    }
+       }
 
 .heading-primary-sub {
  font-size: 42px;  
@@ -192,7 +191,7 @@ text-align: center;
 
         50% {
             opacity: .5;
-            color: #000;
+            color: #e5e5e5;
         }
         100% {
             opacity: 1;
@@ -230,3 +229,188 @@ text-align: center;
 .btn-yellow {
     margin-top:55px;
 }
+
+/*SERVICES*/
+
+#services .container,
+#portfolio .container,
+#about .container {
+    text-align: center;
+    padding-top: 120px;
+    height: 570px;
+}
+
+.headline {
+ font-size: 40px;
+ line-height:45px;
+ font-family: 'Montserrat', sans-serif;
+ color: #222222;  
+ text-transform: uppercase;
+ font-weight: 800;
+ margin-bottom: 18px;
+}
+
+
+.p-headline {
+  font-family:'DroidSerif-Italic';
+  font-size: 16px;
+  line-height:20px;
+  color: #929292;
+  font-weight: 500;
+}
+
+.row {
+    margin-top: 5%;
+    }
+
+    .row h4 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 18px;
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    }
+
+.col-4-app {
+    float: left; 
+    width: 33.33%;
+    padding: 0 30px;
+    }
+
+    .col-4-app p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #9b9b9b;
+    padding: 0 50px;
+       }
+
+       /*PORTFOLIO*/
+
+       #portfolio  {
+           background: #f7f7f7;
+       }
+
+       #portfolio .container {
+        height: 1218px;
+       }
+
+       .col-5-app {
+        float: left; 
+        width: 33.33%;
+        padding: 0 30px;
+        }
+    
+        .col-5-app p {
+        font-family: 'Roboto Slab', serif;
+        font-size: 14px;
+        line-height: 19px;
+        color: #9b9b9b;
+        padding: 0 50px;
+           }
+
+           .col-5-app img {
+               width: 289px;
+               height:302px;
+               background-size: contain;
+           }
+
+           /*ABOUT US*/
+
+           #about .container {
+            height: 1218px;
+           }
+
+           .card-1 {
+            float:left;
+            display: block;
+            width: 60%;
+            padding: 0 30px;
+            margin-top: 8%;
+           }
+
+           .card-l-text {
+               float:left;
+               width: 70%;
+               padding: 0px 20px 20px 210px;
+               text-align: right;
+               font-family: 'Roboto Slab', serif;
+               font-size: 14px;
+               line-height: 21px;
+               color: #9b9b9b;
+                }
+
+           .card-l-img {
+               float: right;
+               width: 30%;
+             }
+
+             .first-line {
+                 display: block;
+                 font-family: 'Montserrat', sans-serif; 
+                 font-size: 18px;
+                 font-weight: 700;
+                 color: #222222;
+                 margin-bottom: 5px;
+                }             
+
+             .second-line {
+                display: block;
+                font-family: 'Montserrat', sans-serif; 
+                font-size: 18px;
+                font-weight: 700;
+                color: #222222;
+            }
+
+            .card-1 p {
+                padding-top: 7px;
+            }
+
+
+
+            .card-2 {
+                float:right;
+                display: block;
+                width: 60%;
+                padding: 0 30px;
+                margin-top: 8%;
+               }
+    
+               .card-2-text {
+                   float:right;
+                   width: 70%;
+                   padding: 0px 210px 20px 10px;
+                   text-align: left;
+                   font-family: 'Roboto Slab', serif;
+                   font-size: 14px;
+                   line-height: 21px;
+                   color: #9b9b9b;
+                    }
+    
+               .card-2-img {
+                   float: left;
+                   width: 30%;
+                 }
+    
+                 .first-line {
+                     display: block;
+                     font-family: 'Montserrat', sans-serif; 
+                     font-size: 18px;
+                     font-weight: 700;
+                     color: #222222;
+                     margin-bottom: 5px;
+                    }             
+    
+                 .second-line {
+                    display: block;
+                    font-family: 'Montserrat', sans-serif; 
+                    font-size: 18px;
+                    font-weight: 700;
+                    color: #222222;
+                }
+    
+                .card-2 p {
+                    padding-top: 7px;
+                }
+
